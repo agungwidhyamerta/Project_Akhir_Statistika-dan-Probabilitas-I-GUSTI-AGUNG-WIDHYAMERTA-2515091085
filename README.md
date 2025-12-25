@@ -1,1 +1,0 @@
-# Project_Akhir_Statistika-dan-Probabilitas-I-GUSTI-AGUNG-WIDHYAMERTA-2515091085
