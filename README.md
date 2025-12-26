@@ -68,7 +68,7 @@ Di bagian ini, mahasiswa diharapkan untuk menyajikan dan menginterpretasikan has
     jawaban : Karena Interpretasi: p-value = 0 <= 0.05. Data kemungkinan besar TIDAK terdistribusi normal. Jika data tidak terdistribusi normal maka implikasinya hasil analisis bisa menjadi kurang akurat, terutama pada jumlah data yang terbatas. Selain itu, nilai rata-     rata dan standar deviasi juga bisa kurang mewakili kondisi data yang sebenarnya, sehingga median dan rentang antar kuartil sering kali lebih tepat digunakan. Data yang tidak normal juga cenderung memiliki sebaran yang tidak simetris atau mengandung nilai ekstrem,       yang dapat memengaruhi hasil model. Oleh karena itu, diperlukan penyesuaian seperti melakukan transformasi data atau menggunakan metode statistik non-parametrik agar analisis tetap valid dan hasil yang diperoleh dapat dipercaya.
 - **Plot Q-Q:**
   - *Sematkan gambar plot dari folder /results...*
-    jawaban : !(alt text)(qqplot_Pendapatan_Tahunan_Miliar_IDR.png)
+    jawaban : ![alt text](qqplot_Pendapatan_Tahunan_Miliar_IDR.png)
     
   - *Interpretasi:* Apakah titik-titik data mengikuti garis lurus? Apa artinya?
     jawaban : Titik-titik data pada Q–Q plot tidak sepenuhnya mengikuti garis lurus, karena meskipun di bagian tengah terlihat cukup dekat dengan garis, pada bagian bawah dan terutama bagian atas terjadi penyimpangan yang jelas membentuk pola melengkung. Hal ini            menunjukkan bahwa data pendapatan tahunan tidak berdistribusi normal, khususnya pada nilai ekstrem. Dengan demikian, asumsi normalitas tidak terpenuhi, sehingga dalam analisis lanjutan perlu dipertimbangkan penggunaan transformasi data atau metode statistik             alternatif yang tidak mengharuskan data berdistribusi normal.
@@ -107,4 +107,5 @@ Di bagian ini, mahasiswa diharapkan untuk menyajikan dan menginterpretasikan has
 ## 6. Kesimpulan
 
 Rangkum temuan utama dari analisis Anda dalam beberapa kalimat. Apa wawasan paling penting yang Anda peroleh?
+
 
