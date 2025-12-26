@@ -90,7 +90,7 @@ Di bagian ini, mahasiswa diharapkan untuk menyajikan dan menginterpretasikan has
   - *Persamaan regresi: Y = b0 + b1*X*
     jawaban : Y : 1.37 + 1.01*X* 
   - *Interpretasi:* Jelaskan arti dari koefisien intercept (b0) dan slope (b1) dalam konteks data Anda.
-    jawaban : 
+    jawaban : Nilai intercept(b0 = 1,37) menunjukkan bahwa ketika Pendapatan_Tahunan_Miliar_IDR = 0, Maka Biaya_Akuisisi_Pelanggan_Juta_IDR diperkirakan sebesar 1,37 juta IDR. Biaya_Akuisisi_Pelanggan_Juta_IDR pada            Pendapatan_Tahunan_Miliar_IDR akan diikuti oleh kenaikan Biaya_Akuisisi_Pelanggan_Juta_IDR sebesar 1,01 juta IDR. KOofesien bernilai positif  yang menunjukkan hubungan positif antara pendapatan tahunan dan biaya           akuisisi pelanggan. 
 - **Evaluasi Model (R-squared):**
   - *Nilai R-squared...*
     jawaban : nilai R-squared = 0.991 atau 99.1 %"
@@ -107,6 +107,7 @@ Di bagian ini, mahasiswa diharapkan untuk menyajikan dan menginterpretasikan has
 ## 6. Kesimpulan
 
 Rangkum temuan utama dari analisis Anda dalam beberapa kalimat. Apa wawasan paling penting yang Anda peroleh?
+Berdasarkan analisis data pendapatan tahunan, ditemukan bahwa rata-rata pendapatan berada di angka 31,88 miliar IDR dengan sebaran data yang cukup luas antara 1 hingga 66,89 miliar IDR. Meskipun visualisasi histogram dan boxplot menunjukkan distribusi yang terlihat merata tanpa adanya outlier yang ekstrem, hasil uji Shapiro-Wilk dan Plot Q-Q menegaskan bahwa data tersebut tidak terdistribusi secara normal, sehingga metode statistik non-parametrik atau transformasi data lebih disarankan untuk analisis yang lebih akurat. Di sisi lain, analisis korelasi menunjukkan hubungan positif yang sangat kuat ($r = 0,995$) antara pendapatan tahunan dan biaya akuisisi pelanggan, yang didukung oleh model regresi dengan nilai $R-squared$ sebesar 99,1%. Melalui persamaan regresi $Y = 1,37 + 1,01X$, dapat disimpulkan bahwa setiap kenaikan pendapatan tahunan sebesar 1 miliar IDR akan diikuti oleh peningkatan biaya akuisisi pelanggan sebesar 1,01 juta IDR, membuktikan bahwa kedua variabel ini memiliki pola hubungan linear yang sangat konsisten dan dapat diandalkan untuk prediksi.Wawasan utama dari analisis ini adalah adanya hubungan yang sangat kuat dan konsisten antara pendapatan tahunan dengan biaya akuisisi pelanggan. Setiap kenaikan pendapatan sebesar 1 miliar IDR secara terukur meningkatkan biaya akuisisi sebesar 1,01 juta IDR, dengan tingkat akurasi model mencapai 99,1%. Hal ini menunjukkan bahwa pengeluaran pemasaran Anda tidak bersifat acak, melainkan bergerak selaras dengan pertumbuhan skala bisnis. Meskipun sebaran data pendapatan tidak merata secara normal, pola hubungan yang sangat stabil ini memberikan kepastian bagi Anda untuk memprediksi anggaran biaya akuisisi di masa depan berdasarkan target pendapatan yang ingin dicapai.
 
 
 
